@@ -2,13 +2,13 @@ package locadora;
 
 import java.io.Serializable;
 
-public class cliente implements Serializable{
+public class Carro implements Serializable{
     private int id;
     private String marca;
     private String modelo;
     private boolean disponivel;
 
-    public cliente(int id, String marca, String modelo){
+    public Carro(int id, String marca, String modelo, boolean b){
         this.id = id;
         this.marca = marca;
         this.modelo = modelo;
