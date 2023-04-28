@@ -19,7 +19,3 @@ Este é um servidor de aluguel de carros que permite alugar e devolver carros vi
 ## 👨‍💻 Objetivo
 
 Projeto desenvolvido como parte da UC de Sistemas de Distribuidos do curso de Ciência da Computação da Universidade Anhembi Morumbi
-
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Consulte o arquivo LICENSE.md para mais informações.
