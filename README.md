@@ -1,18 +1,25 @@
-## Getting Started
+# 🚗 Servidor de aluguel de carros 🚗
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este é um servidor de aluguel de carros que permite alugar e devolver carros via rede. O servidor foi desenvolvido em Java e usa sockets para se comunicar com os clientes.
 
-## Folder Structure
+## 🚀 Como executar
 
-The workspace contains two folders by default, where:
+1. Clone este repositório.
+2. Abra o terminal e navegue até o diretório do projeto.
+3. Compile o código usando o comando `javac servidor.java`.
+4. Execute o servidor usando o comando `java servidor`.
+5. Conecte-se ao servidor usando um cliente de socket.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 📝 Comandos suportados
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- `listar carros`: lista os carros disponíveis para aluguel.
+- `alugar carro [id]`: aluga um carro com o ID especificado.
+- `devolver carro [id]`: devolve um carro com o ID especificado.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## 👨‍💻 Objetivo
 
-## Dependency Management
+Projeto desenvolvido como parte da UC de Sistemas de Distribuidos do curso de Ciência da Computação da Universidade Anhembi Morumbi
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## 📄 Licença
+
+Este projeto está sob a licença MIT. Consulte o arquivo LICENSE.md para mais informações.
